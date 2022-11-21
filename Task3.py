@@ -21,5 +21,7 @@ def Quater(x, y):
     if x > 0 and y < 0:
         return 4
     return 0
-Q = Quater(x,y)
+
+
+Q = Quater(x, y)
 print(f'X = {x} и Y = {y} находятся {Q} четверти')
