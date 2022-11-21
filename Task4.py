@@ -18,5 +18,6 @@ def Coordinator(quarter):
         return f"В {quarter} четверти X больше нуля, а Y меньше нуля"
     return "Введено неверное значение"
 
+
 cord = Coordinator(quarter)
 print(cord)
